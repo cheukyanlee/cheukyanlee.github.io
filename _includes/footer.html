@@ -1,0 +1,39 @@
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 text-left">
+        <h4><strong>{{ site.owner }}</strong>
+        </h4>
+<!--
+        <p>
+          {% for address in site.address %}
+          {{ address.line }}<br>
+          {% endfor %}
+        </p>
+-->
+      </div>
+      
+      <div class="col-sm-6 text-right">
+<!--      <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>    -->
+          <h5><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </h5>
+<!--
+        <br>
+        <ul class="list-inline">
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+          </li>
+        </ul>
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+-->
+      </div>
+    </div>
+  </div>
+</footer>
